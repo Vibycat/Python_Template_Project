@@ -3,12 +3,12 @@
 A clean, intentional, and scalable Python project structure designed
 for:
 
--   Automation scripts\
--   Internal tooling\
--   Data pipelines\
--   CLI utilities\
--   API services\
--   General-purpose applications
+- Automation scripts  
+- Internal tooling  
+- Data pipelines  
+- CLI utilities  
+- API services  
+- General-purpose applications  
 
 This template enforces separation of concerns, predictable file
 organization, and production-ready development habits.
@@ -21,12 +21,12 @@ Most Python projects start simple and become chaotic over time.
 
 This structure ensures:
 
--   Clear separation between logic, configuration, and utilities\
--   Centralized path management\
--   Dedicated data and logging directories\
--   Built-in testing structure\
--   Environment isolation support\
--   Scalable architecture for growth
+- Clear separation between logic, configuration, and utilities  
+- Centralized path management  
+- Dedicated data and logging directories  
+- Built-in testing structure  
+- Environment isolation support  
+- Scalable architecture for growth  
 
 It works for both small scripts and enterprise-grade internal tools.
 
@@ -34,7 +34,8 @@ It works for both small scripts and enterprise-grade internal tools.
 
 ## Project Structure
 
-  MyProject/
+```
+MyProject/
 │
 ├─ README.md
 │  # Primary project documentation.
@@ -183,6 +184,7 @@ It works for both small scripts and enterprise-grade internal tools.
       #   - architecture explanations
       #   - design decisions
       #   - implementation details
+```
 
 ------------------------------------------------------------------------
 
@@ -199,13 +201,13 @@ throughout the codebase.
 
 ### 3. Separation of Responsibilities
 
--   `main.py` → Entry point\
--   `core/` → Business logic\
--   `utils/` → Reusable helpers\
--   `config.py` → Runtime configuration\
--   `data/` → Structured I/O\
--   `logs/` → Central logging\
--   `tests/` → Validation and regression safety
+- `main.py` → Entry point  
+- `core/` → Business logic  
+- `utils/` → Reusable helpers  
+- `config.py` → Runtime configuration  
+- `data/` → Structured I/O  
+- `logs/` → Central logging  
+- `tests/` → Validation and regression safety  
 
 ### 4. Environment Safety
 
@@ -217,7 +219,7 @@ throughout the codebase.
 
 ### 1. Create Virtual Environment
 
-``` bash
+```bash
 python -m venv .venv
 source .venv/bin/activate
 # Windows:
@@ -226,13 +228,13 @@ source .venv/bin/activate
 
 ### 2. Install Dev Dependencies
 
-``` bash
+```bash
 pip install -r requirements-dev.txt
 ```
 
 ### 3. Run the Project
 
-``` bash
+```bash
 python -m myproject.main
 ```
 
@@ -240,7 +242,7 @@ python -m myproject.main
 
 ## Running Tests
 
-``` bash
+```bash
 pytest
 ```
 
@@ -250,10 +252,10 @@ pytest
 
 Recommended tools included:
 
--   black -- formatting\
--   ruff -- linting\
--   mypy -- static typing\
--   pytest -- testing
+- black — formatting  
+- ruff — linting  
+- mypy — static typing  
+- pytest — testing  
 
 ------------------------------------------------------------------------
 
@@ -261,13 +263,13 @@ Recommended tools included:
 
 You can extend this structure to support:
 
--   FastAPI or Flask services\
--   Database integrations\
--   CLI tools (argparse / typer)\
--   Async processing\
--   Background workers\
--   Report generation systems\
--   Automation pipelines
+- FastAPI or Flask services  
+- Database integrations  
+- CLI tools (argparse / typer)  
+- Async processing  
+- Background workers  
+- Report generation systems  
+- Automation pipelines  
 
 The structure remains stable even as the project grows.
 
@@ -275,10 +277,10 @@ The structure remains stable even as the project grows.
 
 ## Ideal Use Cases
 
--   Automation and reporting systems\
--   Internal engineering tools\
--   Data extraction utilities\
--   Robotics and hardware integration scripts
+- Automation and reporting systems  
+- Internal engineering tools  
+- Data extraction utilities  
+- Robotics and hardware integration scripts  
 
 ------------------------------------------------------------------------
 
